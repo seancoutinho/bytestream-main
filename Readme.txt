@@ -1,22 +1,22 @@
 /**
-*	ITSulu - Technology & IT Solutions React Template
+*	ByteStream - Technology & IT Solutions React Template
 *	Version: 1.0
 *	Author: bslthemes
 *	Author URL: http://themeforest.net/user/bslthemes
-*	Copyright © ITSulu by bslthemes. All Rights Reserved.
+*	Copyright © ByteStream by bslthemes. All Rights Reserved.
 **/
 
 
 --------------------------------------
 
-Thank you for your recent purchase of "ITSulu - Technology & IT Solutions React Template".
+Thank you for your recent purchase of "ByteStream - Technology & IT Solutions React Template".
 
 --------------------------------------
 
 
 Overview:
 
-ITSulu – Technology & IT Solutions React NextJS template best suited for IT company, startup, technology, digital agency, web agency, IT business, software, digital marketing, portfolio or any other type of IT-related business. Includes: 23+ Pre-built Pages, 2+ Homepage versions, 7+ Services & Solutions pages, Modern Portfolio with single pages, Blog posts & Events with single post pages, Leadership Team with single pages, Coming Soon page, Modern animations / Carousels and others. It’s the clean, modern and beautiful grid-based template. ITSulu is fully responsive for any devices, clean code quality and built with the latest technologies: React and NextJS, Bootstrap 5.x, Font icons, .SCSS files included, etc.
+ByteStream – Technology & IT Solutions React NextJS template best suited for IT company, startup, technology, digital agency, web agency, IT business, software, digital marketing, portfolio or any other type of IT-related business. Includes: 23+ Pre-built Pages, 2+ Homepage versions, 7+ Services & Solutions pages, Modern Portfolio with single pages, Blog posts & Events with single post pages, Leadership Team with single pages, Coming Soon page, Modern animations / Carousels and others. It’s the clean, modern and beautiful grid-based template. ByteStream is fully responsive for any devices, clean code quality and built with the latest technologies: React and NextJS, Bootstrap 5.x, Font icons, .SCSS files included, etc.
 
 --------------------------------------
 

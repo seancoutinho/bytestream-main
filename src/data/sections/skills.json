@@ -1,35 +1,35 @@
 {
     "title": { "first": "Business", "second": "Success", "third": "With <br />Technology" },
     "subtitle": "Our Skill",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using content here.",
+    "description": "We flourish in the world of technology and innovation. Our team of experts is dedicated to providing the best services and solutions to our clients. Find out how we rate by reviews on our platform!",
     "items": [
         {
             "label": "Software Development",
-            "value": "65"
-        },
-        {
-            "label": "Web Development",
             "value": "90"
         },
         {
-            "label": "UX / UI Design",
-            "value": "50"
+            "label": "Digital Marketing",
+            "value": "95"
         },
         {
-            "label": "App Development",
+            "label": "Hardware and Software Supply",
+            "value": "85"
+        },
+        {
+            "label": "Cyber-Security",
             "value": "95"
         },
         {
             "label": "Internet of Things",
-            "value": "60"
+            "value": "78"
         },
         {
-            "label": "Artificial Intelligence",
-            "value": "90"
+            "label": "Automated Chatbots",
+            "value": "95"
         },
         {
-            "label": "Blockchain",
-            "value": "80"
+            "label": "Business Intelligence & Analytics",
+            "value": "95"
         }
     ],
     "button": {

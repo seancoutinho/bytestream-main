@@ -1,48 +1,48 @@
 {
-    "title": {"first": "How We Can", "second": "Help You"},
+    "title": {"first": "How We Can", "second": "Serve You"},
     "column1": {
-        "heading": "IT Services",
+        "heading": "Technology Services & Solutions",
         "items": [
             {
                 "num": "01",
-                "name": "Dedicated Team",
+                "name": "Software Development",
                 "icon": "img/icons/md/1.svg",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "text": "We provide software development services to help you build custom software solutions that meet your unique business needs."
             },
             {
                 "num": "02",
-                "name": "QA and Testing",
+                "name": "Tech Store",
                 "icon": "img/icons/md/2.svg",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "text": "Are you tired of searching for the best tech products? Look no further! We have a wide range of tech products available for purchase on our online store."
             },
             {
                 "num": "03",
-                "name": "SaaS",
+                "name": "Cyber Security Solutions",
                 "icon": "img/icons/md/3.svg",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "text": "We provide cyber security solutions to help you protect your business from cyber threats. Our team of experts will help you secure your business data and systems."
             }
         ]
     },
     "column2": {
-        "heading": "IT Solutions",
+        "heading": "& Much More! ",
         "items": [
             {
                 "num": "04",
-                "name": "Blockchain",
+                "name": "Digital Marketing",
                 "icon": "img/icons/md/4.svg",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "text": "Want to grow your business online? We provide digital marketing solutions to help you reach your target audience and achieve your business goals."
             },
             {
                 "num": "05",
-                "name": "Artificial Intelligence",
+                "name": "Chatbots & AI",
                 "icon": "img/icons/md/5.svg",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "text": "Automate your business processes with chatbots and AI personally developed by us. Let us help you improve customer service and increase efficiency."
             },
             {
                 "num": "06",
                 "name": "Internet of Things",
                 "icon": "img/icons/md/6.svg",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "text": "We provide IoT solutions to help you connect your devices and systems to the internet. Our team of experts will help you build custom IoT solutions that meet your unique business needs."
             }
         ]
     }

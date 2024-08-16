@@ -20,7 +20,7 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
               <div className="mil-icon-frame mil-icon-frame-sm">
                 <img src="img/icons/sm/4.svg" alt="icon" />
               </div>
-              <p>Find out how ITSulu Could save you over 2.400 US$ a year.</p>
+              <p>Find out how ByteStream Could save you over 2.400 US$ a year.</p>
             </div>
             <ul className="mil-ap-list">
               <li>
@@ -34,9 +34,8 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
         </div>
       )}
       <div
-        className={`mil-top-panel ${
-          transparent ? "mil-top-panel-transparent mil-animated" : ""
-        }`}
+        className={`mil-top-panel ${transparent ? "mil-top-panel-transparent mil-animated" : ""
+          }`}
       >
         {/* mil-top-panel-transparent */}
         <div className="container">

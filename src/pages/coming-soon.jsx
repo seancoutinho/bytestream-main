@@ -47,7 +47,7 @@ const ComingSoon = () => {
               <div className="row align-items-center">
                 <div className="col-lg-5">
                   <h4 className="mil-light mil-mb-30">
-                    Join The <span className="mil-accent">ITSulu</span>
+                    Join The <span className="mil-accent">ByteStream</span>
                     <br /> Experience
                   </h4>
                 </div>
@@ -75,7 +75,7 @@ const ComingSoon = () => {
       {/* coming soon end */}
       <div className="mil-addition-bottom">
         <div className="container-fluid">
-          <p className="mil-text-sm mil-light-soft">© ITSulu 2023.</p>
+          <p className="mil-text-sm mil-light-soft">© ByteStream 2023.</p>
           <p className="mil-text-sm mil-light-soft">All Rights Reserved.</p>
         </div>
       </div>
