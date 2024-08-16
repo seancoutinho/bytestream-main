@@ -1,8 +1,8 @@
 {
-    "title": { "first": "We Provide Services <br />and Solutions", "second": "To Enterprise" },
-    "subtitle": { "first": "The Next", "second": "Gen" },
-    "button": { "label": "Let’s Talk", "link": "/contact" },
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title": { "first": "Dedicated to providing top-notch tech solutions ", "second": "Across the Globe!" },
+    "subtitle": { "first": "Revolutionizing Tech in", "second": "Africa" },
+    "button": { "label": "Reach Out", "link": "/contact" },
+    "description": "We are a team of talented developers, designers, and project managers who are passionate about technology and innovation. We are dedicated to providing the best services and solutions to our clients.",
     "slides": [
         {
             "image": "img/photo/1.jpg"
@@ -16,19 +16,19 @@
     ],
     "items": [
         {
-            "label": "Dedicated Team",
-            "title": "Experts",
-            "text": "And here's some amazing content. It's very engaging. Right?"
+            "label": "Software Solutions",
+            "title": "Software Solutions",
+            "text": "At bytestream, we provide the best software solutions and maintenance services to all sectors of the economy."
         },
         {
-            "label": "Developers",
-            "title": "Experts",
-            "text": "And here's some amazing content. It's very engaging. Right?"
+            "label": "ByteStream Store",
+            "title": "Buy Online",
+            "text": "We have a wide range of products available for purchase on our online store. Visit our store today. We can supply to government, schools, and individuals and private companies."
         },
         {
-            "label": "Designers",
-            "title": "Experts",
-            "text": "And here's some amazing content. It's very engaging. Right?"
+            "label": "Graphic Design",
+            "title": "Experienced Graphic Designers",
+            "text": "Our team of experienced graphic designers are dedicated to providing the best graphic design services to our clients. Reach out to us for affordable enterprise design solutions"
         }
     ]
 }
