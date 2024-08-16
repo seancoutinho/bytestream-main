@@ -11,7 +11,7 @@ class MyDocument extends Document {
           {/* meta end */}
 
           {/* favicon begin */}
-          <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon.png" />
+          <link rel="apple-touch-icon" sizes="76x76" href="favicon/favicon1.png" />
           <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
           <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
           <link rel="manifest" href="favicon/site.webmanifest" />
@@ -23,7 +23,7 @@ class MyDocument extends Document {
           {/* public assets begin */}
           <link rel="stylesheet" href="css/plugins/bootstrap-grid.css" />
           <link rel="stylesheet" href="css/plugins/font-awesome.min.css" />
-          <link rel="stylesheet" href="css/plugins/swiper.min.css" />  
+          <link rel="stylesheet" href="css/plugins/swiper.min.css" />
           {/* public assets end */}
         </Head>
         <body>
