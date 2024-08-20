@@ -20,7 +20,7 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
               <div className="mil-icon-frame mil-icon-frame-sm">
                 <img src="img/icons/sm/4.svg" alt="icon" />
               </div>
-              <p>Find out how ByteStream Could save you over 2.400 US$ a year.</p>
+              <p>Find out more about ByteStream </p>
             </div>
             <ul className="mil-ap-list">
               <li>
@@ -48,9 +48,6 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
                 <li className="mil-has-children">
                   <Link href="/">Enterprise</Link>
                   <ul>
-                    <li>
-                      <Link href="home-2">Home V2</Link>
-                    </li>
                     <li>
                       <Link href="about">About us</Link>
                     </li>

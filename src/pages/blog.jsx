@@ -1,6 +1,7 @@
 import PageBanner from "@/src/components/PageBanner";
 import Layouts from "@/src/layouts/Layouts";
 import Link from "next/link";
+import blogs from '../lib/blogs'
 const Blog = () => {
   return (
     <Layouts footer={2}>
@@ -10,72 +11,28 @@ const Blog = () => {
         <div className="container">
           <div className="row justify-content-between">
             <div className="col-lg-8 col-xl-8 mil-mb-120">
-              <Link href="publication" className="mil-card mil-mb-60">
+            {blogs.map(blog => (
+              <Link href={`publication/${blog.slug}`} className="mil-card mil-mb-60">
                 <div className="mil-cover-frame">
-                  <img src="img/blog/1.jpg" alt="project" />
+                  <img src={`img/blog/${blog.img}`} alt="project" />
                 </div>
                 <div className="mil-description">
                   <div className="mil-card-title">
                     <ul className="mil-dot-list mil-text-sm mil-mb-15">
-                      <li>Management</li>
-                      <li>29 Oct. 2023</li>
+                      <li>{blog.authorTitle}</li>
+                      <li>{blog.create_at}</li>
                     </ul>
-                    <h4>Easy &amp; Most Powerful Server Platform.</h4>
+                    <h4>{blog.title}</h4>
                   </div>
                   <div className="mil-card-text">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Tempor incididunt dolor sit amet, consectetur
-                      adipisicing.
+                      {blog.description.slice(0, 200)}...
                     </p>
                   </div>
                 </div>
               </Link>
-              <Link href="publication" className="mil-card mil-mb-60">
-                <div className="mil-cover-frame">
-                  <img src="img/blog/2.jpg" alt="project" />
-                </div>
-                <div className="mil-description">
-                  <div className="mil-card-title">
-                    <ul className="mil-dot-list mil-text-sm mil-mb-15">
-                      <li>Management</li>
-                      <li>29 Oct. 2023</li>
-                    </ul>
-                    <h4>Easy &amp; Most Powerful Server Platform.</h4>
-                  </div>
-                  <div className="mil-card-text">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Tempor incididunt dolor sit amet, consectetur
-                      adipisicing.
-                    </p>
-                  </div>
-                </div>
-              </Link>
-              <Link href="publication" className="mil-card mil-mb-60">
-                <div className="mil-cover-frame">
-                  <img src="img/blog/3.jpg" alt="project" />
-                </div>
-                <div className="mil-description">
-                  <div className="mil-card-title">
-                    <ul className="mil-dot-list mil-text-sm mil-mb-15">
-                      <li>Management</li>
-                      <li>29 Oct. 2023</li>
-                    </ul>
-                    <h4>Easy &amp; Most Powerful Server Platform.</h4>
-                  </div>
-                  <div className="mil-card-text">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Tempor incididunt dolor sit amet, consectetur
-                      adipisicing.
-                    </p>
-                  </div>
-                </div>
-              </Link>
+            ))}
+              
               <div className="mil-divider mil-mb-60" />
               <div className="mil-pagination mil-hidden-arrows">
                 <div className="mil-slider-nav">
