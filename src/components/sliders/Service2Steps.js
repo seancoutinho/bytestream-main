@@ -1,4 +1,5 @@
 import { sliderProps } from "@/src/common/sliderProps";
+import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 const Service2Steps = () => {
   return (

@@ -2,6 +2,7 @@ import PageBanner from "@/src/components/PageBanner";
 import Layouts from "@/src/layouts/Layouts";
 import Link from "next/link";
 import blogs from '../lib/blogs'
+
 const Blog = () => {
   return (
     <Layouts footer={2}>
@@ -11,28 +12,28 @@ const Blog = () => {
         <div className="container">
           <div className="row justify-content-between">
             <div className="col-lg-8 col-xl-8 mil-mb-120">
-            {blogs.map(blog => (
-              <Link href={`publication/${blog.slug}`} className="mil-card mil-mb-60">
-                <div className="mil-cover-frame">
-                  <img src={`img/blog/${blog.img}`} alt="project" />
-                </div>
-                <div className="mil-description">
-                  <div className="mil-card-title">
-                    <ul className="mil-dot-list mil-text-sm mil-mb-15">
-                      <li>{blog.authorTitle}</li>
-                      <li>{blog.create_at}</li>
-                    </ul>
-                    <h4>{blog.title}</h4>
+              {blogs.map(blog => (
+                <Link href={`publication/${blog.slug}`} className="mil-card mil-mb-60">
+                  <div className="mil-cover-frame">
+                    <img src={`img/blog/${blog.img}`} alt="project" />
                   </div>
-                  <div className="mil-card-text">
-                    <p>
-                      {blog.description.slice(0, 200)}...
-                    </p>
+                  <div className="mil-description">
+                    <div className="mil-card-title">
+                      <ul className="mil-dot-list mil-text-sm mil-mb-15">
+                        <li>{blog.authorTitle}</li>
+                        <li>{blog.create_at}</li>
+                      </ul>
+                      <h4>{blog.title}</h4>
+                    </div>
+                    <div className="mil-card-text">
+                      <p>
+                        {blog.description.slice(0, 200)}...
+                      </p>
+                    </div>
                   </div>
-                </div>
-              </Link>
-            ))}
-              
+                </Link>
+              ))}
+
               <div className="mil-divider mil-mb-60" />
               <div className="mil-pagination mil-hidden-arrows">
                 <div className="mil-slider-nav">
@@ -62,109 +63,33 @@ const Blog = () => {
             </div>
             <div className="col-lg-4 col-xl-3 mil-mb-120">
               <div className="mil-mb-60">
-                <h5 className="mil-list-title mil-mb-30">About ByteStream</h5>
+                <h5 className="mil-list-title mil-mb-30">About ByteStream Technologies</h5>
                 <p className="mil-mb-30">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                  diam nonummy nibh euismod tincidunt.
+                  ByteStream Technologies is a technology company based in Zimbabwe that is dedicated to providing quality software and hardware solutions to its clients.
                 </p>
                 <Link href="team-single" className="mil-post-sm mil-mb-15">
                   <div className="mil-cover-frame">
                     <img src="img/faces/1.jpg" alt="cover" />
                   </div>
                   <div className="mil-description">
-                    <h4 className="mil-font-3 mil-accent">Jane Meldrum</h4>
+                    <h4 className="mil-font-3 mil-accent">Sean Coutinho</h4>
                     <p className="mil-text-sm">CEO &amp; Co-Founder</p>
                   </div>
                 </Link>
               </div>
               <div className="mil-divider mil-mb-60" />
-              <form className="mil-sidebar-input-frame mil-mb-60">
-                <input
-                  type="text"
-                  className="mil-sidebar-input"
-                  placeholder="Search here..."
-                />
-                <button type="submit">
-                  <i className="fas fa-search" />
-                </button>
-              </form>
-              <div className="mil-divider mil-mb-60" />
               <div className="mil-mb-60">
                 <h5 className="mil-list-title mil-mb-30">Recent Posts</h5>
-                <Link href="publication" className="mil-post-sm mil-mb-15">
-                  <div className="mil-cover-frame">
-                    <img src="img/blog/6.jpg" alt="cover" />
-                  </div>
-                  <div className="mil-description">
-                    <h6>The World’s Fastest 2 Qubit Qate</h6>
-                  </div>
-                </Link>
-                <Link href="publication" className="mil-post-sm mil-mb-15">
-                  <div className="mil-cover-frame">
-                    <img src="img/blog/5.jpg" alt="cover" />
-                  </div>
-                  <div className="mil-description">
-                    <h6>Build Your Money Machine, Take Control</h6>
-                  </div>
-                </Link>
-                <Link href="publication" className="mil-post-sm mil-mb-15">
-                  <div className="mil-cover-frame">
-                    <img src="img/blog/4.jpg" alt="cover" />
-                  </div>
-                  <div className="mil-description">
-                    <h6>Android App For Shaving Products Drive</h6>
-                  </div>
-                </Link>
-                <Link href="publication" className="mil-post-sm mil-mb-15">
-                  <div className="mil-cover-frame">
-                    <img src="img/blog/3.jpg" alt="cover" />
-                  </div>
-                  <div className="mil-description">
-                    <h6>Positioning Your Self As a Pro Consultant</h6>
-                  </div>
-                </Link>
-              </div>
-              <div className="mil-divider mil-mb-60" />
-              <div className="mil-mb-60">
-                <h5 className="mil-list-title mil-mb-30">Categories</h5>
-                <ul className="mil-hover-link-list">
-                  <li>
-                    <a href="#.">Business</a>
-                  </li>
-                  <li>
-                    <a href="#.">Design</a>
-                  </li>
-                  <li>
-                    <a href="#.">Development</a>
-                  </li>
-                  <li>
-                    <a href="#.">Management</a>
-                  </li>
-                  <li>
-                    <a href="#.">Software</a>
-                  </li>
-                </ul>
-              </div>
-              <div className="mil-divider mil-mb-60" />
-              <div className="mil-mb-60">
-                <h5 className="mil-list-title mil-mb-30">Tags</h5>
-                <ul className="mil-tags">
-                  <li>
-                    <a href="#.">Business</a>
-                  </li>
-                  <li>
-                    <a href="#.">Design</a>
-                  </li>
-                  <li>
-                    <a href="#.">General</a>
-                  </li>
-                  <li>
-                    <a href="#.">Development</a>
-                  </li>
-                  <li>
-                    <a href="#.">Learning</a>
-                  </li>
-                </ul>
+                {blogs.map(blog => (
+                  <Link href={`/publication/${blog.slug}`} className="mil-post-sm mil-mb-15">
+                    <div className="mil-cover-frame">
+                      <img src={`/img/blog/${blog.img}`} alt="cover" />
+                    </div>
+                    <div className="mil-description">
+                      <h6>{blog.title}</h6>
+                    </div>
+                  </Link>
+                ))}
               </div>
               <div className="mil-divider mil-mb-60" />
               <div className="mil-mb-60">
@@ -183,10 +108,10 @@ const Blog = () => {
               <div className="mil-divider mil-mb-60" />
               <h5 className="mil-list-title mil-mb-30">Contact us</h5>
               <p className="mil-mb-30">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Looking into getting a website or an app for your business? Contact us today and we will get back to you as soon as possible.
               </p>
               <Link href="contact" className="mil-link">
-                <span>Send</span>
+                <span>Send Us A Message</span>
                 <i className="fas fa-arrow-right" />
               </Link>
             </div>
