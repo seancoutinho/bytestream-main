@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import './index.scss';
 import "../styles/globals.css";
+import { Toaster } from 'react-hot-toast';
 
 import { register } from "swiper/element/bundle";
 // register Swiper custom elements
@@ -10,6 +11,7 @@ register();
 function MyApp({ Component, pageProps }) {
   return (
     <>
+      <Toaster />
       <Head>
           {/* seo begin */}
           <title>ByteStream </title>

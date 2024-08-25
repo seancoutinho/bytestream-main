@@ -12,9 +12,9 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
           <div className="container-fluid">
             <ul className="mil-ap-list">
               <li>
-                Phone: <span className="mil-accent">+ 01</span> 800 070 404
+                Phone: <span className="mil-accent">+ 263</span> 242 005227
               </li>
-              <li>Info@mydomain.com</li>
+              <li>info@bytestream.co.zw</li>
             </ul>
             <div className="mil-ap-call-to-action">
               <div className="mil-icon-frame mil-icon-frame-sm">
@@ -22,14 +22,6 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
               </div>
               <p>Find out more about ByteStream </p>
             </div>
-            <ul className="mil-ap-list">
-              <li>
-                <a href="#.">Accounta</a>
-              </li>
-              <li>
-                <a href="#.">English</a>
-              </li>
-            </ul>
           </div>
         </div>
       )}
@@ -46,7 +38,7 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
             <nav>
               <ul>
                 <li className="mil-has-children">
-                  <Link href="/">Enterprise</Link>
+                  <Link href="/">Home</Link>
                   <ul>
                     <li>
                       <Link href="about">About us</Link>
@@ -55,19 +47,7 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
                       <Link href="team">Team</Link>
                     </li>
                     <li>
-                      <Link href="team-single">Team Member</Link>
-                    </li>
-                    <li>
-                      <Link href="careers">Careers</Link>
-                    </li>
-                    <li>
-                      <Link href="prices">Prices</Link>
-                    </li>
-                    <li>
                       <Link href="faq">FAQ</Link>
-                    </li>
-                    <li>
-                      <Link href="event">Event</Link>
                     </li>
                   </ul>
                 </li>
@@ -75,25 +55,17 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
                   <Link href="portfolio">Case Studies</Link>
                 </li>
                 <li className="mil-has-children">
-                  <Link href="service-1">Services</Link>
+                  <Link href="services">Services</Link>
                   <ul>
                     <li>
-                      <Link href="service-1">Service 1</Link>
+                      <Link href="ui-ux-design">UI/UX Design</Link>
                     </li>
                     <li>
-                      <Link href="service-2">Service 2</Link>
+                      <Link href="service-3">Solution 2</Link>
                     </li>
                     <li>
-                      <Link href="service-3">Service 3</Link>
+                      <Link href="service-4">Solution 3</Link>
                     </li>
-                    <li>
-                      <Link href="service-4">Service 4</Link>
-                    </li>
-                  </ul>
-                </li>
-                <li className="mil-has-children">
-                  <Link href="solution-1">Solutions</Link>
-                  <ul>
                     <li>
                       <Link href="solution-1">Solution 1</Link>
                     </li>

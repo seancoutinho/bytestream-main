@@ -86,7 +86,7 @@ const Service3 = () => {
       </section>
       {/* ??? end */}
       
-      <LatestProjectsSlider />
+      {/* <LatestProjectsSlider /> */}
       
       {/* left nav tabs */}
       <Service3NavTabs />
