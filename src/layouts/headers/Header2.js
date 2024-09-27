@@ -60,39 +60,11 @@ const Header2 = () => {
                     </li>
                   </ul>
                 </li>
+                {/* <li>
+                  <Link href="portfolio">Products</Link>
+                </li> */}
                 <li>
-                  <Link href="portfolio">Case Studies</Link>
-                </li>
-                <li className="mil-has-children">
-                  <Link href="#.">Services</Link>
-                  <ul>
-                    <li>
-                      <Link href="service-1">Service 1</Link>
-                    </li>
-                    <li>
-                      <Link href="service-2">Service 2</Link>
-                    </li>
-                    <li>
-                      <Link href="service-3">Service 3</Link>
-                    </li>
-                    <li>
-                      <Link href="service-4">Service 4</Link>
-                    </li>
-                  </ul>
-                </li>
-                <li className="mil-has-children">
-                  <Link href="#.">Solutions</Link>
-                  <ul>
-                    <li>
-                      <Link href="solution-1">Solution 1</Link>
-                    </li>
-                    <li>
-                      <Link href="solution-2">Solution 2</Link>
-                    </li>
-                    <li>
-                      <Link href="solution-3">Solution 3</Link>
-                    </li>
-                  </ul>
+                  <Link href="services">Services</Link>
                 </li>
                 <li>
                   <Link href="blog">Blog</Link>
@@ -100,17 +72,7 @@ const Header2 = () => {
                 <li>
                   <Link href="contact">Contact Us</Link>
                 </li>
-                <li className="mil-has-children">
-                  <a href="#.">Other</a>
-                  <ul>
-                    <li>
-                      <Link href="coming-soon">Coming Soon</Link>
-                    </li>
-                    <li>
-                      <Link href="404">404</Link>
-                    </li>
-                  </ul>
-                </li>
+              
               </ul>
               <div className="mil-search-icon">
                 <svg

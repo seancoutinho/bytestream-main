@@ -51,9 +51,9 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
                     </li>
                   </ul>
                 </li>
-                <li>
-                  <Link href="portfolio">Case Studies</Link>
-                </li>
+                {/* <li>
+                  <Link href="portfolio">Products</Link>
+                </li> */}
                 <li className="mil-has-children">
                   <Link href="services">Services</Link>
                   <ul>
@@ -82,17 +82,6 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
                 </li>
                 <li>
                   <Link href="contact">Contact Us</Link>
-                </li>
-                <li className="mil-has-children">
-                  <Link href="#.">Other</Link>
-                  <ul>
-                    <li>
-                      <Link href="coming-soon">Coming Soon</Link>
-                    </li>
-                    <li>
-                      <Link href="404">404</Link>
-                    </li>
-                  </ul>
                 </li>
               </ul>
               <div className="mil-search-icon">

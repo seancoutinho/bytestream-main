@@ -8,9 +8,8 @@ const Service3NavTabs = dynamic(
     ssr: false,
   }
 );
-const LatestProjectsSlider = dynamic( () => import("../components/sliders/LatestProjects"), { ssr: false } );
 
-const Service3 = () => {
+const MobileAppDevelopment = () => {
   return (
     <Layouts footer={2}>
       <PageBanner pageName={"Service"} pageTitle={"Mobile app development"} />
@@ -34,9 +33,8 @@ const Service3 = () => {
                 </div>
                 <h5 className="mil-mb-20">Android Platform</h5>
                 <p className="mil-mb-30">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  accumsan lacus vel facilisis.
+                  Our Android development team excels in creating robust, high-performance apps using Java and Kotlin. We leverage the latest technologies to deliver seamless user experiences on the Android platform, ensuring your app is both innovative and reliable.
+
                 </p>
                 <ul className="mil-dot-list">
                   <li className="mil-text-sm mil-bold mil-dark">Java</li>
@@ -49,11 +47,9 @@ const Service3 = () => {
                 <div className="mil-icon-frame mil-icon-bg mil-icon-frame-md mil-mb-30">
                   <img src="img/icons/md/22.svg" alt="icon" />
                 </div>
-                <h5 className="mil-mb-20">Android Platform</h5>
+                <h5 className="mil-mb-20">iOS Platform</h5>
                 <p className="mil-mb-30">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  accumsan lacus vel facilisis.
+                  Our iOS developers craft elegant and efficient apps using Swift and Objective-C, tailored to meet the high standards of the Apple ecosystem. Whether it's a simple utility or a complex application, we ensure smooth performance and a polished user experience across all iOS devices.
                 </p>
                 <ul className="mil-dot-list">
                   <li className="mil-text-sm mil-bold mil-dark">Swift</li>
@@ -68,16 +64,13 @@ const Service3 = () => {
                 </div>
                 <h5 className="mil-mb-20">Cross Platform</h5>
                 <p className="mil-mb-30">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  accumsan lacus vel facilisis.
+                  We offer cross-platform app development services to help you reach a broader audience with a single codebase. Our expertise in React Native and Flutter allows us to deliver apps that perform consistently across both iOS and Android, ensuring a uniform user experience.
                 </p>
                 <ul className="mil-dot-list">
                   <li className="mil-text-sm mil-bold mil-dark">
                     React Native
                   </li>
                   <li className="mil-text-sm mil-bold mil-dark">Flutter</li>
-                  <li className="mil-text-sm mil-bold mil-dark">Xamarin</li>
                 </ul>
               </div>
             </div>
@@ -85,9 +78,9 @@ const Service3 = () => {
         </div>
       </section>
       {/* ??? end */}
-      
+
       {/* <LatestProjectsSlider /> */}
-      
+
       {/* left nav tabs */}
       <Service3NavTabs />
       {/* left nav tabs end */}
@@ -111,7 +104,7 @@ const Service3 = () => {
                 <div className="mil-icon-frame mil-icon-bg mil-icon-frame-md mil-mb-30">
                   <img src="img/icons/md/23.svg" alt="icon" />
                 </div>
-                <h5 className="mil-mb-20">eCcommerce</h5>
+                <h5 className="mil-mb-20">E-Commerce</h5>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor facilisis.{" "}
@@ -213,4 +206,4 @@ const Service3 = () => {
     </Layouts>
   );
 };
-export default Service3;
+export default MobileAppDevelopment;

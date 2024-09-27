@@ -29,7 +29,6 @@ const Home1 = (props) => {
       <SkillsSection />
       <Divider />
       <LatestPostsSlider posts={props.posts} />
-      <TestimonialSlider />
       <ContactSection />
     </Layouts>
   );

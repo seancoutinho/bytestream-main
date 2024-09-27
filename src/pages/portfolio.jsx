@@ -4,7 +4,7 @@ import Link from "next/link";
 const Portfolio = () => {
   return (
     <Layouts>
-      <PageBanner pageName={"Works"} pageTitle={"Case Studies"} />
+      <PageBanner pageName={"Works"} pageTitle={"Some Products We Have Developed"} />
       {/* portfolio */}
       <section className="mil-p-120-120">
         <div className="container">

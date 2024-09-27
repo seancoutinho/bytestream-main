@@ -12,7 +12,7 @@ const Service2Steps = () => {
   const handleTabClick = (tab) => {
     setActiveTab(tab);
   };
-  
+
   return (
     <section className="mil-deep-bg mil-p-120-0">
       <div className="container">
@@ -23,6 +23,36 @@ const Service2Steps = () => {
           How We <span className="mil-accent">Deliver Outstanding</span> <br />
           UI/UX Design Solutions
         </h2>
+        <div className="mil-tab-buttons mil-mt-60-adapt">
+          <a
+            className={activeTab === "tab1" ? "mil-active" : ""}
+            href="#tab1"
+            onClick={() => handleTabClick("tab1")}
+          >
+            <span>Discovery</span>
+          </a>
+          <a
+            className={activeTab === "tab2" ? "mil-active" : ""}
+            href="#tab2"
+            onClick={() => handleTabClick("tab2")}
+          >
+            <span>Validation</span>
+          </a>
+          <a
+            className={activeTab === "tab3" ? "mil-active" : ""}
+            href="#tab3"
+            onClick={() => handleTabClick("tab3")}
+          >
+            <span>Design</span>
+          </a>
+          <a
+            className={activeTab === "tab4" ? "mil-active" : ""}
+            href="#tab4"
+            onClick={() => handleTabClick("tab4")}
+          >
+            <span>Improve</span>
+          </a>
+        </div>
         <Swiper
           {...sliderProps.milTabsSlider}
           className="swiper-container mil-tabs-slider"
@@ -98,7 +128,7 @@ const Service2Steps = () => {
                 >
                   <span>Hire UI / UX Designers</span>
                 </Link>
-               
+
               </div>
               <div className="col-lg-4">
                 <div
@@ -142,7 +172,7 @@ const Service2Steps = () => {
                 >
                   <span>Hire UI / UX Designers</span>
                 </Link>
-               
+
               </div>
               <div className="col-lg-4">
                 <div
@@ -186,7 +216,7 @@ const Service2Steps = () => {
                 >
                   <span>Hire UI / UX Designers</span>
                 </Link>
-               
+
               </div>
               <div className="col-lg-4">
                 <div
@@ -202,36 +232,7 @@ const Service2Steps = () => {
             </div>
           </SwiperSlide>
         </Swiper>
-        <div className="mil-tab-buttons mil-mt-60-adapt">
-          <a
-            className={activeTab === "tab1" ? "mil-active" : ""}
-            href="#tab1"
-            onClick={() => handleTabClick("tab1")}
-          >
-            <span>Discovery</span>
-          </a>
-          <a
-            className={activeTab === "tab2" ? "mil-active" : ""}
-            href="#tab2"
-            onClick={() => handleTabClick("tab2")}
-          >
-            <span>Validation</span>
-          </a>
-          <a
-            className={activeTab === "tab3" ? "mil-active" : ""}
-            href="#tab3"
-            onClick={() => handleTabClick("tab3")}
-          >
-            <span>Design</span>
-          </a>
-          <a
-            className={activeTab === "tab4" ? "mil-active" : ""}
-            href="#tab4"
-            onClick={() => handleTabClick("tab4")}
-          >
-            <span>Improve</span>
-          </a>
-        </div>
+
       </div>
     </section>
   );
